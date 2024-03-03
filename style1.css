@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black !important;
+}
+
+.container {
+    margin: 20px auto;
+    padding: 0 20px;
+    /*background-color: black;*/
+}
+
+.search-container {
+    margin-bottom: 20px;
+    
+}
+
+.search-container input[type="text"] {
+    padding: 8px;
+    margin-right: 10px;
+    width: 60vw;
+    color: white;
+    background-color: #1a1a1c;
+    padding : 10px;
+    color : #c5c5c5;
+    margin-right : 20px;
+    border: 0px solid #8E8E8E;
+    margin-left: 10%;
+}
+
+/*.search-container button {
+    padding: 8px 16px;
+    background-color: black;
+    border: none;
+    color: white;
+    cursor: pointer;
+}*/
+
+.form-control::placeholder{
+    color:white !important;
+}
+
+
+
+table th {
+    background-color: #f2f2f2;
+    color: #ddd;
+    text-align: center;
+    }
+
+
+
+table tr:hover {
+    background-color: #ed9a9a;
+}
+
+#btn1,#btn2 {
+    margin-right: 10px;
+    background-color: #1a1a1c;
+    border: 2px solid #8E8E8E;
+}
+tr{
+    border-bottom: 2px solid white !important;
+ }
+ td{
+     padding : 10px;
+     border-bottom: 2px solid gray !important;
+     color:#ddd;
+     text-align: center;
+     padding-top: 10%;
+ }
+ table{
+    padding-left: 10% !important;
+    width:80% !important;
+    margin-left: 10%;
+ }
+ .negative-change {
+    color: red; /* Red color for negative change */
+}
+
+.positive-change {
+    color: green; /* Green color for positive change */
+}
+@media (max-width: 767.98px) {
+    .table-responsive {
+        overflow: hidden;
+        position: absolute;
+    }
+    td{
+        font-size: 10px;
+    }
+    table{
+        width:100vw;
+        overflow: hidden;
+       position: absolute;
+       
+    }
+    
+    
+    
+   
+}
+
+/* Responsive styles for screens smaller than 576px */
+@media (max-width: 600.98px) {
+    .table-responsive {
+        overflow: hidden;
+       position: absolute;
+    }
+    td{
+        font-size: 10px;
+    }
+    table{
+        width:100vw;
+       
+       position: absolute;
+       
+    }
+    
+    td,th{
+        display: block;
+     }
+   
+}
+
+/* Responsive styles for screens smaller than 480px */
+@media (max-width: 479.98px) {
+    .table-responsive {
+        
+        position: absolute;
+    }
+    td{
+        font-size: 10px;
+    }
+    table{
+        width:50vw;
+        
+       position: absolute;
+       
+    }
+   
+    
+    td,th{
+       display: block;
+    }
+}
+ 
